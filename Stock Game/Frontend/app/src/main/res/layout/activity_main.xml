@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/goLogin"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorSecondary"
+        android:fontFamily="@font/cybertooth"
+        android:gravity="center"
+        android:text="Log In"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.502"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_title" />
+
+    <Button
+        android:id="@+id/goLogin_guest"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginRight="8dp"
+        android:background="@color/colorSecondary"
+        android:fontFamily="@font/cybertooth"
+        android:gravity="center"
+        android:text="Log In As Guest"
+        android:textColor="@color/colorBlack"
+        android:textSize="15sp"
+        android:onClick="go_guestPage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goSignup" />
+
+    <Button
+        android:id="@+id/goSignup"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="161dp"
+        android:layout_marginLeft="161dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="162dp"
+        android:layout_marginRight="162dp"
+        android:background="@color/colorSecondary"
+        android:fontFamily="@font/cybertooth"
+        android:gravity="center"
+        android:text="Sign Up"
+        android:textColor="@color/colorBlack"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.494"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/goLogin" />
+
+    <TextView
+        android:id="@+id/main_title"
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:text="JR_4 Stock Game"
+        android:fontFamily="@font/cybertooth"
+        android:gravity="center"
+        android:textSize="32sp"
+        android:textStyle="bold"
+        android:textColor="@color/colorBlack"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</android.support.constraint.ConstraintLayout>

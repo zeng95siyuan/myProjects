@@ -1,0 +1,8 @@
+com.server
+com.server.chat
+com.server.chat.message
+com.server.inventory
+com.server.score
+com.server.stock
+com.server.transaction
+com.server.user

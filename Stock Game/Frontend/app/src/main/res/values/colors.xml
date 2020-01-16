@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryData">#3700B3</color>
+    <color name="colorLightGrey">#F5F5F5    </color>
+    <color name="colorButton">#E30425</color>
+    <color name="colorSecondary">#03DAC5</color>
+    <color name="colorAccent">#E6E6FA</color>
+    <color name="colorAdmin">#B00020</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+    <color name="colorGachaButton">#81E875</color>
+    <color name="colorGachaText">#AD9E2B</color>
+    <color name="Champion">#FF4500</color>
+    <color name="Silver">#A9A9A9</color>
+    <color name="Bronze">#FF8C00</color>
+
+</resources>

@@ -1,0 +1,19 @@
+{
+  "name": "apiserver",
+  "version": "1.0.0",
+  "description": "Server for accessing api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bennett Ray",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "http": "0.0.0",
+    "mysql": "^2.16.0",
+    "request": "^2.88.0",
+    "socket.io": "^2.2.0",
+    "socket.io-client": "^2.2.0"
+  }
+}
